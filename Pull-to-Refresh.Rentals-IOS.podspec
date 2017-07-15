@@ -13,11 +13,11 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '7.0'
 
 
-  spec.resources = ['YALTourPullToRefresh/YALSunnyRefreshControll/Images.xcassets', 'YALTourPullToRefresh/**/*.{xib}']
+  spec.resources = ['YALTourPullToRefresh/YALSunnyRefreshControll/Images.xcassets', 'YALTourPullToRefresh/YALSunnyRefreshControll/YALSunnyRefreshControl.xib']
 
   spec.requires_arc = true
 
   spec.source_files = 'YALTourPullToRefresh/YALSunnyRefreshControll/*'
-  spec.source = { :git => 'https://github.com/Yalantis/Pull-to-Refresh.Rentals-iOS.git', :tag => spec.version }
+  spec.source = { :git => 'https://github.com/PowerAuras/Pull-to-Refresh.Rentals-iOS.git', :tag => spec.version }
   spec.frameworks = 'UIKit'
 end
